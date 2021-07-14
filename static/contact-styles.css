@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav-link{
+    margin-right: 3.6rem;
+  /* color: rgba(0,0,0,.9); */
+  color: #fff;
+  padding: 0;
+}

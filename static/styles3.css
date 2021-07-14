@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav-link{
+  margin-right: 3.6rem;
+  /* color: rgba(0,0,0,.9); */
+  color: #fff;
+  padding: 0;
+}
+.navigationdropdown{
+  visibility: hidden;
+}
+.mainsection{
+    height: 90vh;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    width: 60%;
+}
+.form-text{
+    margin-bottom: 8px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.heading h3{
+    font-size: 2.5rem;
+    color: #198754;
+}
+footer{
+    height: 100%;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+}
+
+@media screen and (max-width:991px) {
+    .nav-link{
+        margin-right: 0;
+        padding: 0;
+      }  
+}

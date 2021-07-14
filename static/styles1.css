@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav-link{
+  margin-right: 3.6rem;
+  /* color: rgba(0,0,0,.9); */
+  color: #fff;
+  padding: 0;
+}
+.navigationdropdown{
+  visibility: visible;
+}
+.bgimage{
+    /* background-image: url('https://pixabay.com/get/ge6f114264148ce2e19a117cf78e6ad3ee4c2f92e2e66dc750b4f2229ee7c3e64c988c01823ed42a1b80753e4fd7dd078.jpg'); */
+    background-image: url('../static/img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mainsection{
+    width: 80%;
+    margin: auto;
+}
+.section1{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+form{
+  width: 60%;
+}
+/* .table{
+  visibility: hidden;
+} */
+#tableactive{
+  visibility: visible;
+}
+footer{
+    height: 100%;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+}
